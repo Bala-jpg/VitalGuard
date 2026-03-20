@@ -1,0 +1,66 @@
+# ======================
+# 🟡 Node / Frontend
+# ======================
+node_modules/
+dist/
+build/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package lock duplicates (keep only one)
+package-lock-*.json
+
+# ======================
+# 🔵 Python / Backend
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# ======================
+# 🟢 Environment Files
+# ======================
+.env
+.env.local
+.env.development
+.env.production
+
+# ======================
+# 🔴 OS / System Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# 🟣 IDE / Editor Files
+# ======================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ======================
+# 🟠 Arduino / Embedded
+# ======================
+*.ino.cpp
+*.hex
+*.bin
+
+# ======================
+# 🟤 Misc
+# ======================
+coverage/
+.cache/
